@@ -13,7 +13,8 @@ def read_file(filename):
 
     
 # 讓使用者輸入
-     while True:
+def user_input(products):
+    while True:
         name = input('請輸入商品名稱: ')
         if name == 'q':
             break
